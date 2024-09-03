@@ -10,3 +10,9 @@ export interface AlbumWithoutId {
   year: string;
   image: string | null;
 }
+
+export interface TrackWithoutId {
+  album: string;
+  name: string;
+  duration: string;
+}
